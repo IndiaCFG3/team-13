@@ -6,3 +6,4 @@ Team members:
 * Aysha Mohammed Asif
 * Vishnusankar
 * Ishita Badole
+* Harsh Rathore
