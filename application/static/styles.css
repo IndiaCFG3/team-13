@@ -81,6 +81,7 @@ h1,h2,h3,h4,h5,h6{
 }
 .container{
   margin-bottom: 100px;
+  width: 100%;
 }
 
 #footer {
@@ -102,6 +103,35 @@ h1,h2,h3,h4,h5,h6{
     transform: rotate(0);
   }
 }
+
+/*accordion start*/
+
+.card .card-header {
+  background-color: transparent;
+}
+
+.card-header button{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
+  font-size: 25px;
+  text-decoration: none;
+  padding: 0;
+  text-underline-position: auto;
+}
+
+.form-control a{
+  margin: 10px;
+}
+
+.dropdown .btn {
+  width: 150px;
+}
+
+#btnGo{
+  display: inline-block;
+  vertical-align: top;
+}
+/*accordion end*/
 
 /* Footer */
 .social-icon{
