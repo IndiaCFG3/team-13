@@ -1,7 +1,12 @@
 from flask import Flask, redirect, render_template, request, session, url_for
+import models
 
-from application import app
-
-@app.route('/')
+@app.route('/', methods=['POST', 'GET'])
+@app.route('/supply', methods=['POST', 'GET'])
 def index():
-    return render_template('home.html')
+    if request.method == 'POST':
+        pass
+        # CALL THE FUNCTION HERE
+        return render_template('supply.html')
+
+    return render_template('supply.html')
