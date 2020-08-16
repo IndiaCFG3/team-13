@@ -1,0 +1,110 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Rowdies', cursive;
+}
+/* Headings */
+.logo{
+  width:15%;
+}
+.big-heading{
+  font-family: 'Rowdies', cursive;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+.section-heading{
+  font-size: 3rem;
+  line-height: 1.5
+}
+.container-fluid{
+  color: #b9ac92;
+}
+
+/* Section */
+.coloured-section{
+    background-color: #fecb89;
+  color: #fff;
+}
+.white-section{
+  color: #000;
+}
+
+/* Navigation Bar */
+.navbar{
+  margin-bottom: 70px;
+}
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+  color: #ffff;
+}
+.nav-item{
+  padding: 0 18px;
+}
+/* Title */
+/* #title.container-fluid{
+  padding: 3% 15%;
+} */
+#title{
+
+  text-align: left;
+}
+/*Title Image*/
+.title-image{
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+/* Graph */
+#supply-graph{
+  background-color: #ffff;
+  color: #060608;
+  font-weight: bold;
+}
+#demand-graph{
+  background-color: #ffff;
+  color: #060608;
+  font-weight: bold;
+}
+
+.card-header{
+  color: #b9ac92;
+}
+.container{
+  margin-bottom: 100px;
+}
+
+#footer {
+   left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #fecb89;
+  color: white;
+  text-align: center;
+}
+
+@media(max-width: 1028px)
+{
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+/* Footer */
+.social-icon{
+  color: #ffff;
+  margin: 20px 10px;
+}
