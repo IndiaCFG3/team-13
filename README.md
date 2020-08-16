@@ -32,7 +32,7 @@ Requirements -
 * Werkzeug==1.0.1
 
 
-##Acknowledgement, Author and Licensing
+## Acknowledgement, Author and Licensing
 For the project, I give credit to
 
 1.  https://comtrade.un.org/data, [FAO](http://www.fao.org/home/en/), [Our World In Data](http://www.fao.org/home/en/) for the dataset
