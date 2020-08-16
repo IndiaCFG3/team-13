@@ -32,8 +32,8 @@ Requirements -
 * Werkzeug==1.0.1
 
 
-## Acknowledgement, Author and Licensing
-For the project, I give credit to
+## Acknowledgement, Authors and Licensing
+For the project, we are thankful to
 
 1.  https://comtrade.un.org/data, [FAO](http://www.fao.org/home/en/), [Our World In Data](http://www.fao.org/home/en/) for the dataset
 2.  JP Morgan Chase for providing the necessary guidance for this project
