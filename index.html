@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Sight an</title>
+  <title>Sight and Life</title>
   <link rel="icon" type="image/x-icon" href="iconlogo.png">
   <!-- Google Font -->
   <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Rowdies:wght@700&family=Ubuntu&display=swap" rel="stylesheet">
@@ -107,13 +107,35 @@
   <!-- initial -->
   <div class="row">
     <div class="col-lg-12 col-md-4 col-sm-12">
-      <div class="card text-center ">
-        <h5 class="card-header">Supply Statistics</h5>
-        <div class="card-body">
-          <!-- <h5 class="card-title">Special title treatment</h5> -->
-          <p class="card-text">Displays country-wise supply of eggs.</p>
-          <a href="#" class="btn btn-outline-secondary">More info</a>
+      <div id="accordion">
+        <div class="card">
+          <div class="card-header" id="headingOne">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                Supply Statistics
+              </button>
+            </h5>
+          </div>
+      
+          <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+            <div class="card-body">
+              <div class="dropdown">
+                <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown" id="btnAnalytics">Analytics
+                <span class="caret"></span></button>
+                <ul class="dropdown-menu">
+                  <li><div class="checkbox">
+                    <label for=""><input type="checkbox">Eggs</label>
+                  </div></li>
+                  <li><div class="checkbox">
+                    <label for=""><input type="checkbox">Consumption</label>
+                  </div></li>
+                </ul>
+              </div>
+              <button class="btn btn-success" type="button" id="btnGo">Go</button>
+            </div>
+          </div>
         </div>
+<<<<<<< HEAD
       </div>
       <div id="map-container"></div>
     </div>
@@ -136,12 +158,41 @@
           <!-- <h5 class="card-title">Special title treatment</h5> -->
           <p class="card-text">Displays a comparison of two countries on the basis of egg consumption.</p>
           <a href="#" class="btn btn-outline-secondary">More info</a>
+=======
+
+        <div class="card">
+          <div class="card-header" id="headingTwo">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Demand Statistics
+              </button>
+            </h5>
+          </div>
+      
+          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+            <div class="card-body">
+              <div class="dropdown">
+                <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown" id="btnAnalytics">Analytics
+                <span class="caret"></span></button>
+                <ul class="dropdown-menu">
+                  <li><div class="checkbox">
+                    <label for=""><input type="checkbox">Eggs</label>
+                  </div></li>
+                  <li><div class="checkbox">
+                    <label for=""><input type="checkbox">Consumption</label>
+                  </div></li>
+                </ul>
+              </div>
+              <button class="btn btn-success" type="button" id="btnGo">Go</button>
+            </div>
+          </div>
+>>>>>>> 026fcb80ab15b7329e2e4633fd1a62697646d8ba
         </div>
       </div>
     </div>
-
   </div>
 </div>
+
 
 
       <!-- Footer -->
