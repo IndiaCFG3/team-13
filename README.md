@@ -32,6 +32,13 @@ Requirements -
 * Werkzeug==1.0.1
 
 
+### Features
+
+1. interactive UI
+2. "Easy-to-understand" info-maps
+3. Statistical representations for history-tracking
+
+
 ## Acknowledgement, Authors and Licensing
 For the project, we are thankful to
 
