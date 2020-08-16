@@ -5,11 +5,8 @@ from application import models, app
 @app.route('/supply', methods=['POST', 'GET'])
 def index():
     if request.method == 'POST':
-        startYear = request.form.get('startYear')
-        endYear = request.form.get('endYear')
-        columnRequired = request.form.get('columnRequired')
-        country = request.form.get('country')
-        csv_file = models.createCSV(country, startYear, endYear, columnRequired)
+        year = request.form.get('year')
+        json_file = models.heatMapData(year)
         return render_template('supply.html')
-    csv_file = models.createCSV('india', 1990, 2000, 'population')
+    json_file = models.graphData()
     return render_template('supply.html')
